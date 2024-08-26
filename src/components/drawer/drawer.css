@@ -1,0 +1,70 @@
+.drawer {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  width: 40%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-right: 2px solid rgba(128, 128, 128, 0.459);
+  flex-direction: column;
+}
+
+.drawer__btn {
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0.766);
+
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+
+  justify-content: end;
+  -webkit-justify-content: flex-end;
+  -moz-justify-content: flex-end;
+  -ms-justify-content: flex-end;
+
+  height: 40px;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.459);
+}
+.drawer__btn-add {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+
+  margin-inline: 12px;
+  -webkit-margin-start: 12px;
+  -webkit-margin-end: 12px;
+  -moz-margin-start: 12px;
+  -moz-margin-end: 12px;
+
+  justify-content: center;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+
+  cursor: pointer;
+  background-color: #52c41a;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin-block: 8px;
+  color: white;
+}
